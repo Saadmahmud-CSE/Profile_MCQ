@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B564D"
+    android:fillViewport="true">
+    <LinearLayout
+        android:id="@+id/anim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".HomePage">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/java"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            android:text="Do you know about java programming language ???" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/prev"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#196CAF"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginRight="50dp"
+                android:text="No" />
+            <Button
+                android:id="@+id/next"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#196CAF"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Yes" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
